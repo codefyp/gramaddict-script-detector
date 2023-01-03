@@ -31,7 +31,7 @@ while True:
         shell.SendKeys(".venv\\Scripts\\activate.bat{ENTER}")
 
         # Send the fifth line of code to the command prompt window
-        shell.SendKeys("py run.py --config accounts/angelomadeit/config.yml{ENTER}")
+        shell.SendKeys("py run.py --config accounts/myinstaprofile/config.yml{ENTER}")
 
     # Wait for 5 minutes before checking if the script is running again
     time.sleep(5 * 60)
